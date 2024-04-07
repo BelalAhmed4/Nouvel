@@ -1,0 +1,116 @@
+/* Start */
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 
+Medium: 
+Semi-bold: 
+Bold: 
+
+- Line heights
+Default: 1
+Small:
+Medium:
+
+Paragraph default:
+- Letter spacing
+
+--- 02 COLORS
+- Primary:
+-dark icons:
+- Accents:
+- Greys:
+
+--- 05 WHITESPACE
+Distance between every section: 
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+/********************************************/
+/* global rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui ,sans-serif;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+/********************************************/
+/* Root */
+/* :root{} */
+/********************************************/
+/* Flex-system */
+.flex-row {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+/********************************************/
+/* Grid Systems */
+.grid--col--1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.grid--col--2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--row--1 {
+  grid-template-rows: repeat(1, 1fr);
+}
+.grid--row--2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+/********************************************/
+/* Gap */
+.gap-02 {
+  gap: 0.2rem;
+}
+.gap-04 {
+  gap: 0.4rem;
+}
+.gap-08 {
+  gap: 0.8rem;
+}
+.gap-012 {
+  gap: 0.12rem;
+}
+/* Grid Column Gap*/
+.column-gap02 {
+  column-gap: 0.2rem;
+}
+.column-gap04 {
+  column-gap: 0.4rem;
+}
+.column-gap08 {
+  column-gap: 0.8rem;
+}
+.column-gap012 {
+  column-gap: 0.12rem;
+}
+/* Grid Row Gap */
+.row-gap02 {
+  row-gap: 0.2rem;
+}
+.row-gap04 {
+  row-gap: 0.4rem;
+}
+.row-gap08 {
+  row-gap: 0.8rem;
+}
+.row-gap012 {
+  row-gap: 0.12rem;
+}
+/********************************************/
+/* End TG */

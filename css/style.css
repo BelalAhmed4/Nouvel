@@ -1,0 +1,81 @@
+body{
+   background-color: #1d0e27;
+}
+header{
+  width: 100%;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.9rem;
+  z-index: 100
+}
+h2{
+  color: #eee;
+  font-size: 2.1rem;
+}
+.menu{
+  margin-left: 0.8rem;
+  list-style-type: none;
+}
+.menu li {
+  font-weight: 500;
+    color: #eee;
+  font-size: 1.8rem;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  margin-left: 2.1rem;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.menu li:hover{
+background-color: #eee;
+color: #1d0e27;
+}
+.menu .active{
+  background-color: #eee;
+color: #1d0e27;
+}
+/* End Head */
+/* Start Main */
+.main {
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.main::after{
+  content: "";
+  bottom: 0;
+  height:10rem;
+  width: 100%;
+  background: linear-gradient( #1d0e27, transparent  );
+}
+.main img{
+  object-fit:cover;
+  position: absolute;
+  width:100%;
+  height: 100vh;
+}
+#moon{
+  mix-blend-mode: screen;
+}
+#nouvil{
+  /* z-index: -10; */
+transform: translateY(-16rem);
+}
+/* break content */
+/* .main::after{
+  content: "";
+  position: absolute;
+  bottom: ;
+
+} */
+/* content */
+.content{
+  margin-top: 10rem;
+  font-size: 1.6rem;
+  color:#eee;
+  line-height: 1.9;
+}
