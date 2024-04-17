@@ -31,7 +31,7 @@ window.onscroll = function () {
   } else {
     nouvil.style.display = "block";
   }
-  if (value >= 400) {
+  if (value >= 320) {
     nouvil.style.display = "none";
   }
   if (value >= 120) {
